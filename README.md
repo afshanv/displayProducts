@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Overview:
 
-## Getting Started
+This project is a dynamic and responsive product display page built with Next.js and TypeScript, utilizing Client-Side Rendering (CSR) for fetching and displaying product data from a mock API. The page is styled using Tailwind CSS for a modern and clean user interface.
 
-First, run the development server:
+Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Dynamic Data Fetching: Fetches product data from Fake Store API in real-time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Responsive Design: Adapts seamlessly to different screen sizes, including mobile, tablet, and desktop.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clean UI: Styled with Tailwind CSS, featuring hover effects and smooth transitions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Product Details: Displays product title, price, description, category, and image in a visually appealing card layout.
 
-## Learn More
+Navigation: Includes a link to navigate back to the homepage.
 
-To learn more about Next.js, take a look at the following resources:
+Technologies Used:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js (Framework)
+TypeScript (Type Safety)
+Tailwind CSS (Styling)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Usage:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open the application to view the list of products fetched from the API.
+Hover over product cards for visual feedback.
+Use the "Go Back to Home" link at the bottom of the page for navigation.
